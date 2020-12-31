@@ -13,3 +13,33 @@
 2020-12-29 21:09:31,895 :INFO : test_order :Click Order side menu
 2020-12-29 21:09:35,469 :INFO : test_order :Orders showing in Descending
 2020-12-29 21:10:19,569 :INFO : test_detail :Click Order side menuNone
+2020-12-30 13:09:28,188 :INFO : test_detail :Click Order side menuNone
+2020-12-30 13:10:49,250 :INFO : test_detail :Click Order side menuNone
+2020-12-30 15:52:25,603 :INFO : test_detail :Click Order side menuNone
+2020-12-30 16:21:05,974 :INFO : test_detail :Click Order side menuNone
+2020-12-30 16:23:27,056 :INFO : test_detail :Click Order side menuNone
+2020-12-30 19:36:56,458 :INFO : test_detail :Click Order side menuNone
+2020-12-30 19:41:57,552 :INFO : test_detail :Click Order side menu
+2020-12-30 19:43:29,976 :INFO : test_detail :Click Order side menu
+2020-12-30 19:45:54,130 :INFO : test_detail :Click Order side menu
+2020-12-30 19:46:01,913 :INFO : test_detail :payment amountTrue
+2020-12-30 19:47:37,160 :INFO : test_detail :Click Order side menu
+2020-12-30 19:47:44,538 :INFO : test_detail :payment amount  True
+2020-12-30 19:56:16,552 :INFO : test_detail :Click Order side menu
+2020-12-30 19:56:23,793 :INFO : test_detail :payment amount  True
+2020-12-30 19:59:18,419 :INFO : test_detail :Click Order side menu
+2020-12-30 19:59:25,604 :INFO : test_detail :payment amount  True
+2020-12-30 20:01:11,209 :INFO : test_detail :Click Order side menu
+2020-12-30 20:01:17,912 :INFO : test_detail :payment amount  True
+2020-12-30 20:01:33,196 :INFO : test_order :Click Order side menu
+2020-12-30 20:01:35,935 :INFO : test_order :Orders showing in Descending
+2020-12-30 20:20:50,235 :INFO : test_detail :Click Order side menu
+2020-12-31 14:07:08,655 :INFO : test_detail :Click Order side menu
+2020-12-31 14:07:16,171 :INFO : test_detail :payment amount  True
+2020-12-31 14:08:03,581 :INFO : test_detail :Click Order side menu
+2020-12-31 14:11:21,503 :INFO : test_detail :Click Order side menu
+2020-12-31 14:11:26,450 :INFO : test_detail :payment amount  True
+2020-12-31 14:54:03,528 :INFO : test_detail :Click Order side menu
+2020-12-31 14:54:08,014 :INFO : test_detail :payment amount  True
+2020-12-31 14:54:21,549 :INFO : test_order :Click Order side menu
+2020-12-31 14:54:24,877 :INFO : test_order :Orders showing in Descending

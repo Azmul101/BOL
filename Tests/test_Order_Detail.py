@@ -9,9 +9,17 @@ class Test_Two(BaseClass):
         log = self.getlogger()
         Order = Order_detail(self.driver)
         Order.login()
-        Orders = Order.orders()
-        log.info("Click Order side menu" + str(Orders))
+        Order.orders()
+        log.info("Click Order side menu")
         Order.get_select_order()
         flag = Order.get_line_item()
         assert flag
-
+        flag = Order.get_address()
+        assert flag
+        credit_payment = Order.get_payment()
+        log.info("payment amount  " + str(credit_payment))
+        assert ("True" in str(credit_payment))
+        flag = Order.get_buttons()
+        assert flag
+        flag = Order.get_other_button()
+        assert flag
