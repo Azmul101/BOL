@@ -8,3 +8,4 @@ class Testdata:
     password = "Admin@123"
     find_Option_page_title = "Orders | Find Order (20)"
     create_title = "Create Purchase Order"
+    order_aging_title = "Orders | Find Order (true, 2020-12-05, 2020-11-06, OrderApproved,OrderSent)"

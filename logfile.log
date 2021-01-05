@@ -43,3 +43,74 @@
 2020-12-31 14:54:08,014 :INFO : test_detail :payment amount  True
 2020-12-31 14:54:21,549 :INFO : test_order :Click Order side menu
 2020-12-31 14:54:24,877 :INFO : test_order :Orders showing in Descending
+2021-01-04 17:50:02,457 :INFO : test_three :All the facilities result
+2021-01-04 17:50:02,682 :INFO : test_three :Go to Order list
+2021-01-04 17:52:52,974 :INFO : test_three :All the facilities result
+2021-01-04 17:52:53,676 :INFO : test_three :Go to Order list
+2021-01-04 17:57:46,039 :INFO : test_three :All the facilities result
+2021-01-04 17:57:46,953 :INFO : test_three :Go to Order list
+2021-01-04 18:42:16,743 :INFO : test_three :All the facilities result
+2021-01-04 18:42:20,034 :INFO : test_three :Go to Order list
+2021-01-04 18:43:37,449 :INFO : test_detail :Click Order side menu
+2021-01-04 18:43:47,217 :INFO : test_detail :payment amount  True
+2021-01-04 18:45:45,822 :INFO : test_order :Click Order side menu
+2021-01-04 18:45:54,856 :INFO : test_order :Orders showing in Descending
+2021-01-04 18:57:58,611 :INFO : test_detail :Click Order side menu
+2021-01-04 18:58:10,109 :INFO : test_detail :payment amount  True
+2021-01-04 19:07:28,677 :INFO : test_detail :Click Order side menu
+2021-01-04 19:07:44,365 :INFO : test_detail :payment amount  True
+2021-01-04 19:10:27,060 :INFO : test_detail :Click Order side menu
+2021-01-04 19:10:33,082 :INFO : test_detail :payment amount  True
+2021-01-04 19:33:44,451 :INFO : test_three :All the facilities result
+2021-01-04 19:33:46,440 :INFO : test_three :Go to Order list
+2021-01-04 19:47:32,604 :INFO : test_detail :Click Order side menu
+2021-01-05 13:41:28,846 :INFO : test_order :Click Order side menu
+2021-01-05 14:20:01,059 :INFO : test_order :Click Order side menu
+2021-01-05 14:20:05,080 :INFO : test_order :Orders showing in Descending
+2021-01-05 14:21:03,169 :INFO : test_detail :Click Order side menu
+2021-01-05 14:21:07,855 :INFO : test_detail :payment amount  True
+2021-01-05 14:21:40,976 :INFO : test_aging :All the facilities result
+2021-01-05 14:21:41,984 :INFO : test_aging :Go to Order list
+2021-01-05 14:36:33,296 :INFO : test_aging :All the facilities result
+2021-01-05 14:36:34,256 :INFO : test_aging :Go to Order list
+2021-01-05 14:39:41,012 :INFO : test_aging :All the facilities result
+2021-01-05 14:39:42,114 :INFO : test_aging :Go to Order list
+2021-01-05 14:41:43,371 :INFO : test_aging :All the facilities result
+2021-01-05 14:41:44,252 :INFO : test_aging :Go to Order list
+2021-01-05 14:46:14,157 :INFO : test_aging :All the facilities result
+2021-01-05 14:46:15,137 :INFO : test_aging :Go to Order list
+2021-01-05 14:52:04,119 :INFO : test_aging :All the facilities result
+2021-01-05 14:52:05,065 :INFO : test_aging :Go to Order list
+2021-01-05 15:17:01,013 :INFO : test_aging :All the facilities result
+2021-01-05 15:17:01,933 :INFO : test_aging :Go to Order list
+2021-01-05 15:25:30,766 :INFO : test_aging :All the facilities result
+2021-01-05 15:25:31,689 :INFO : test_aging :Go to Order list
+2021-01-05 16:31:10,725 :INFO : test_aging :All the facilities result
+2021-01-05 16:31:11,533 :INFO : test_aging :Go to Order list
+2021-01-05 16:41:34,582 :INFO : test_aging :All the facilities result
+2021-01-05 16:41:35,362 :INFO : test_aging :Go to Order list
+2021-01-05 17:23:42,235 :INFO : test_aging :All the facilities result
+2021-01-05 17:23:43,389 :INFO : test_aging :Go to Order list
+2021-01-05 17:23:59,299 :INFO : test_detail :Click Order side menu
+2021-01-05 17:33:17,723 :INFO : test_aging :Go to Order Aging menu
+2021-01-05 17:34:05,492 :INFO : test_detail :Go to Order
+2021-01-05 17:34:06,132 :INFO : test_detail :Click Order side menu
+2021-01-05 17:34:10,679 :INFO : test_detail :Line item verifying
+2021-01-05 17:34:10,731 :INFO : test_detail :payment amount  True
+2021-01-05 17:34:10,759 :INFO : test_detail :Close button present
+2021-01-05 17:34:10,784 :INFO : test_detail :Other button present
+2021-01-05 17:34:25,732 :INFO : test_order :Click Order side menu
+2021-01-05 17:34:29,149 :INFO : test_order :Orders showing in Descending
+2021-01-05 19:14:46,172 :INFO : test_order :Click Order side menu
+2021-01-05 19:20:15,427 :INFO : test_order :Click Order side menu
+2021-01-05 19:20:23,362 :INFO : test_order :Orders showing in Descending
+2021-01-05 19:20:46,301 :INFO : test_detail :Go to Order
+2021-01-05 19:20:46,955 :INFO : test_detail :Click Order side menu
+2021-01-05 19:20:51,548 :INFO : test_detail :Line item verifying
+2021-01-05 19:20:51,604 :INFO : test_detail :payment amount  True
+2021-01-05 19:20:51,631 :INFO : test_detail :Close button present
+2021-01-05 19:20:51,658 :INFO : test_detail :Other button present
+2021-01-05 19:21:06,073 :INFO : test_aging :Go to Order Aging menu
+2021-01-05 19:21:08,006 :INFO : test_aging :Select Facility
+2021-01-05 19:21:08,115 :INFO : test_aging :Facility result are shown
+2021-01-05 19:21:08,809 :INFO : test_aging :Go to Order list

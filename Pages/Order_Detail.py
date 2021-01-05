@@ -10,7 +10,7 @@ class Order_detail(Common):
     Product = (By.CSS_SELECTOR, "a[id=OrderItems_productLink_0_0_editProduct]")
     Address = (By.XPATH, "//div[@class='row']//address[1]")
     Payment = (By.XPATH, "//*[@id='OrderPanel-tabpanel']/div/div[2]/div[2]/div[1]/div[2]/div/div")
-    Close_button = (By.CSS_SELECTOR, "button[id='OrderItems_closeButton_0_0_cancelOrderItem_button']")
+    Close_button = (By.CSS_SELECTOR, "button[id='CloseOrderDialog-button']")
     Other_buttons = (By.CSS_SELECTOR, "button[onclick][class='btn btn-primary btn-sm']")
     # Table_id = (By.CSS_SELECTOR, "table[id='OrderItems_0_table']")
     # rows = Table_id.find_elements(By.TAG_NAME, "tr")

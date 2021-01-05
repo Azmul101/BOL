@@ -28,10 +28,6 @@ class Common:
         WebDriverWait(self.driver, 30).until(EC.title_is(title))
         return self.driver.title
 
-    def selectoptionbytext(self, locator, text):
-        sel = Select(locator)
-        sel.select_by_visible_text(text)
-
     def login_page(self):  # General login method for all the testcases
         self.driver.find_element(By.CSS_SELECTOR, "[id='login_form_username']").send_keys(Testdata.username)
         self.driver.find_element(By.CSS_SELECTOR, "[name='password']").send_keys(Testdata.password)
@@ -40,3 +36,7 @@ class Common:
     # @pytest.fixture(params=LoginPageData.gettestdata("Testcase1"))
     # def getData(self, request):
     #     return request.param
+
+    def selectoptionbytext(self, locator, text):
+        self.select = Select(locator)
+        self.select.select_by_visible_text(text)
