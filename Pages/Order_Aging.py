@@ -38,5 +38,4 @@ class Order_aging(Common):
         return self.do_click(self.order)
 
     def get_page_title(self):
-        if self.is_visible(self.page_title):
-            return self.get_element_text(self.page_title)
+        return self.driver.find_element(*self.page_title)

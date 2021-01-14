@@ -1,3 +1,5 @@
+import time
+
 from Pages.Order_Aging import Order_aging
 from TestData.Data import Testdata
 from Utilities.BaseClass import BaseClass
@@ -16,9 +18,6 @@ class Test_Three(BaseClass):
         log.info("Facility result are shown")
         Order.get_order()
         log.info("Go to Order list")
-        title = Order.get_title(Testdata.order_aging_title)
-        assert title == Testdata.order_aging_title
-
-
-        # log.info("Text received from application is " + title)
-        # assert ("Orders | Find Order" in title)
+        header = Order.get_page_title().text
+        time.sleep(5)
+        assert "Orders | Find Order" in header

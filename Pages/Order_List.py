@@ -20,7 +20,7 @@ class Order_List(Common):
         super().__init__(driver)
         self.driver = driver
 
-    def login(self):
+    def login(self, ):
         return self.login_page()
 
     def orders(self):

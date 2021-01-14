@@ -1,9 +1,11 @@
+import pytest
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.select import Select
 
 from TestData.Data import Testdata
+from TestData.LoginData import LoginPageData
 
 
 class Common:
@@ -33,10 +35,10 @@ class Common:
         self.driver.find_element(By.CSS_SELECTOR, "[name='password']").send_keys(Testdata.password)
         self.driver.find_element(By.CSS_SELECTOR, "[class='btn btn-lg btn-primary btn-block']").click()
 
-    # @pytest.fixture(params=LoginPageData.gettestdata("Testcase1"))
-    # def getData(self, request):
-    #     return request.param
+    @pytest.fixture(params=LoginPageData.gettestdata("Testcase2"))
+    def getData(self, request):
+        return request.param
 
-    def selectoptionbytext(self, locator, text):
-        self.select = Select(locator)
-        self.select.select_by_visible_text(text)
+    def selectOptionByText(self, locator, text):
+        sel = Select(locator)
+        sel.select_by_visible_text(text)

@@ -1,5 +1,3 @@
-import time
-
 from Pages.Order_Detail import Order_detail
 from Utilities.BaseClass import BaseClass
 
