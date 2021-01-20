@@ -243,7 +243,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>report-case1-4.html</h1>
-    <p>Report generated on 13-Jan-2021 at 16:02:38 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
+    <p>Report generated on 14-Jan-2021 at 20:40:30 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -262,7 +262,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>Python</td>
         <td>3.9.0</td></tr></table>
     <h2>Summary</h2>
-    <p>4 tests ran in 114.88 seconds. </p>
+    <p>4 tests ran in 145.74 seconds. </p>
     <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">2 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">2 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
@@ -277,24 +277,26 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
       <tbody class="failed results-table-row">
         <tr>
           <td class="col-result">Failed</td>
-          <td class="col-name">Tests/test_1_Order_List.py::Test_one::test_order</td>
-          <td class="col-duration">46.15</td>
+          <td class="col-name">Tests/test_3_Order_Aging.py::Test_Three::test_aging</td>
+          <td class="col-duration">26.34</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div><div><img src="Tests/test_1_Order_List.py_Test_one_test_order.png" alt="screenshot" style="width:304px;height:228px;" onclick="window.open(this.src)" align="right"/></div></div>
-            <div class="log">self = &lt;Tests.test_1_Order_List.Test_one object at 0x000001EE8F06ED60&gt;<br/><br/>    def test_order(self):<br/>        log = self.getlogger()  # For log file<br/>        Order = Order_List(self.driver)  # Call the page class<br/>        Order.login()<br/>        Order.orders()<br/>        log.info(&quot;Click Order side menu&quot;)<br/>        Order.get_find_element()<br/>        Order.get_clear_param()<br/>        Order.get_find()<br/>        log.info(&quot;Orders showing in Descending&quot;)<br/>        title = Order.get_title(Testdata.find_Option_page_title)<br/>        assert title == Testdata.find_Option_page_title<br/>        self.driver.refresh()<br/>&gt;       Order.get_csv()<br/><br/>Tests\test_1_Order_List.py:22: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/>Pages\Order_List.py:39: in get_csv<br/>    return self.do_click(self.csv)<br/>Pages\BasePage.py:16: in do_click<br/>    WebDriverWait(self.driver, 30).until(EC.visibility_of_element_located(by_locator)).click()<br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ <br/><br/>self = &lt;selenium.webdriver.support.wait.WebDriverWait (session=&quot;54380226a0ff78e7ef469575dff2227d&quot;)&gt;<br/>method = &lt;selenium.webdriver.support.expected_conditions.visibility_of_element_located object at 0x000001EE8F061190&gt;, message = &#x27;&#x27;<br/><br/>    def until(self, method, message=&#x27;&#x27;):<br/>        &quot;&quot;&quot;Calls the method provided with the driver as an argument until the \<br/>        return value is not False.&quot;&quot;&quot;<br/>        screen = None<br/>        stacktrace = None<br/>    <br/>        end_time = time.time() + self._timeout<br/>        while True:<br/>            try:<br/>                value = method(self._driver)<br/>                if value:<br/>                    return value<br/>            except self._ignored_exceptions as exc:<br/>                screen = getattr(exc, &#x27;screen&#x27;, None)<br/>                stacktrace = getattr(exc, &#x27;stacktrace&#x27;, None)<br/>            time.sleep(self._poll)<br/>            if time.time() &gt; end_time:<br/>                break<br/>&gt;       raise TimeoutException(message, screen, stacktrace)<br/><span class="error">E       selenium.common.exceptions.TimeoutException: Message:</span><br/><br/>..\..\AppData\Local\Programs\Python\Python39\lib\site-packages\selenium\webdriver\support\wait.py:80: TimeoutException<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     test_order:test_1_Order_List.py:14 Click Order side menu
-INFO     test_order:test_1_Order_List.py:18 Orders showing in Descending<br/></div></td></tr></tbody>
+            <div><div><img src="Tests/test_3_Order_Aging.py_Test_Three_test_aging.png" alt="screenshot" style="width:304px;height:228px;" onclick="window.open(this.src)" align="right"/></div></div>
+            <div class="log">self = &lt;Tests.test_3_Order_Aging.Test_Three object at 0x000001EB5545CCA0&gt;<br/><br/>    def test_aging(self):<br/>        log = self.getlogger()<br/>        Order = Order_aging(self.driver)<br/>        Order.login()<br/>        log.info(&quot;Go to Order Aging menu&quot;)<br/>        Order.get_Order_aging()<br/>        Order.get_facility()<br/>        log.info(&quot;Select Facility&quot;)<br/>        Order.get_button()<br/>        log.info(&quot;Facility result are shown&quot;)<br/>        Order.get_order()<br/>        log.info(&quot;Go to Order list&quot;)<br/>        flag = Order.get_page_title()<br/>&gt;       assert flag<br/><span class="error">E       AssertionError: assert &#x27;&#x27;</span><br/><br/>Tests\test_3_Order_Aging.py:22: AssertionError<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     test_aging:test_3_Order_Aging.py:13 Go to Order Aging menu
+INFO     test_aging:test_3_Order_Aging.py:16 Select Facility
+INFO     test_aging:test_3_Order_Aging.py:18 Facility result are shown
+INFO     test_aging:test_3_Order_Aging.py:20 Go to Order list<br/></div></td></tr></tbody>
       <tbody class="failed results-table-row">
         <tr>
           <td class="col-result">Failed</td>
           <td class="col-name">Tests/test_4_Order_Report.py::Test_Four::test_report</td>
-          <td class="col-duration">35.53</td>
+          <td class="col-duration">48.31</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
             <div><div><img src="Tests/test_4_Order_Report.py_Test_Four_test_report.png" alt="screenshot" style="width:304px;height:228px;" onclick="window.open(this.src)" align="right"/></div></div>
-            <div class="log">self = &lt;Tests.test_4_Order_Report.Test_Four object at 0x000001EE8F04A700&gt;<br/><br/>    def test_report(self):<br/>        log = self.getlogger()  # For log file<br/>        Order = report_order(self.driver)  # Call the page class<br/>        log.info(&quot;Login into system&quot;)<br/>        Order.login()<br/>        log.info(&quot;Go to side menu&quot;)<br/>        Order.report()<br/>        log.info(&quot;Go to report detail page&quot;)<br/>        Order.get_select_store()<br/>        log.info(&quot;Selecting the store&quot;)<br/>        Order.get_store()<br/>        Order.click_on_button()<br/>        log.info(&quot;Downloading the CSV and XML files&quot;)<br/>        Order.get_csv()<br/>        Order.get_xls()<br/>        log.info(&quot;CLick on Retrieve button&quot;)<br/>        Order.get_retrieve().click()<br/>        # buttons = Order.get_retrieve()<br/>        # for button in buttons:<br/>        #     if button.is_displayed():<br/>        #         return button.click()<br/>        # else:<br/>        #     pass<br/>        time.sleep(10)<br/>        self.driver.refresh()<br/>        time.sleep(10)<br/>        status_message = Order.get_internal_status().text<br/>&gt;       assert (&quot;OrderApproved&quot; in status_message)<br/><span class="error">E       AssertionError: assert &#x27;OrderApproved&#x27; in &#x27;OrderPlaced&#x27;</span><br/><br/>Tests\test_4_Order_Report.py:36: AssertionError<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     test_report:test_4_Order_Report.py:12 Login into system
+            <div class="log">self = &lt;Tests.test_4_Order_Report.Test_Four object at 0x000001EB5545F250&gt;<br/><br/>    def test_report(self):<br/>        log = self.getlogger()  # For log file<br/>        Order = report_order(self.driver)  # Call the page class<br/>        log.info(&quot;Login into system&quot;)<br/>        Order.login()<br/>        log.info(&quot;Go to side menu&quot;)<br/>        Order.report()<br/>        log.info(&quot;Go to report detail page&quot;)<br/>        Order.get_select_store()<br/>        log.info(&quot;Selecting the store&quot;)<br/>        Order.get_store()<br/>        Order.click_on_button()<br/>        log.info(&quot;Downloading the CSV and XML files&quot;)<br/>        Order.get_csv()<br/>        Order.get_xls()<br/>        log.info(&quot;CLick on Retrieve button&quot;)<br/>        Order.get_retrieve().click()<br/>        # buttons = Order.get_retrieve()<br/>        # for button in buttons:<br/>        #     if button.is_displayed():<br/>        #         return button.click()<br/>        # else:<br/>        #     pass<br/>        time.sleep(10)<br/>        self.driver.refresh()<br/>        time.sleep(10)<br/>        status_message = Order.get_internal_status().text<br/>&gt;       assert (&quot;OrderApproved&quot; in status_message)<br/><span class="error">E       AssertionError: assert &#x27;OrderApproved&#x27; in &#x27;OrderPlaced&#x27;</span><br/><br/>Tests\test_4_Order_Report.py:36: AssertionError<br/> -------------------------------Captured log call-------------------------------- <br/>INFO     test_report:test_4_Order_Report.py:12 Login into system
 INFO     test_report:test_4_Order_Report.py:14 Go to side menu
 INFO     test_report:test_4_Order_Report.py:16 Go to report detail page
 INFO     test_report:test_4_Order_Report.py:18 Selecting the store
@@ -303,8 +305,18 @@ INFO     test_report:test_4_Order_Report.py:24 CLick on Retrieve button<br/></di
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
+          <td class="col-name">Tests/test_1_Order_List.py::Test_one::test_order</td>
+          <td class="col-duration">39.67</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     test_order:test_1_Order_List.py:14 Click Order side menu
+INFO     test_order:test_1_Order_List.py:18 Orders showing in Descending<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
           <td class="col-name">Tests/test_2_Order_Detail.py::Test_Two::test_detail</td>
-          <td class="col-duration">17.03</td>
+          <td class="col-duration">29.85</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
@@ -313,16 +325,4 @@ INFO     test_detail:test_2_Order_Detail.py:12 Click Order side menu
 INFO     test_detail:test_2_Order_Detail.py:15 Line item verifying
 INFO     test_detail:test_2_Order_Detail.py:20 payment amount  True
 INFO     test_detail:test_2_Order_Detail.py:23 Close button present
-INFO     test_detail:test_2_Order_Detail.py:26 Other button present<br/></div></td></tr></tbody>
-      <tbody class="passed results-table-row">
-        <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">Tests/test_3_Order_Aging.py::Test_Three::test_aging</td>
-          <td class="col-duration">15.00</td>
-          <td class="col-links"></td></tr>
-        <tr>
-          <td class="extra" colspan="4">
-            <div class="log"> -------------------------------Captured log call-------------------------------- <br/>INFO     test_aging:test_3_Order_Aging.py:11 Go to Order Aging menu
-INFO     test_aging:test_3_Order_Aging.py:14 Select Facility
-INFO     test_aging:test_3_Order_Aging.py:16 Facility result are shown
-INFO     test_aging:test_3_Order_Aging.py:18 Go to Order list<br/></div></td></tr></tbody></table></body></html>
+INFO     test_detail:test_2_Order_Detail.py:26 Other button present<br/></div></td></tr></tbody></table></body></html>

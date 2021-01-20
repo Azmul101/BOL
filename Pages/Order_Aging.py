@@ -1,4 +1,3 @@
-
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from Pages.BasePage import Common
@@ -11,7 +10,7 @@ class Order_aging(Common):
     value = By.XPATH, "//li[@role='treeitem']"
     select_button = By.CSS_SELECTOR, "button[id='SelectFacility_submitButton']"
     order = By.XPATH, "//tbody/tr[2]/td[6]/a"
-    page_title = By.CSS_SELECTOR, "h1[class='content-title']"
+    page_title = By.XPATH, "//*[@id='apps-root']/div[1]/section/h1"
 
     # Constructor
     def __init__(self, driver):
@@ -38,4 +37,5 @@ class Order_aging(Common):
         return self.do_click(self.order)
 
     def get_page_title(self):
-        return self.driver.find_element(*self.page_title)
+        if self.is_visible(self.page_title):
+            return self.get_element_text(self.page_title)

@@ -476,3 +476,64 @@
 2021-01-14 16:43:07,816 :INFO : test_report :Selecting the store
 2021-01-14 16:43:07,995 :INFO : test_report :Downloading the CSV and XML files
 2021-01-14 16:43:09,529 :INFO : test_report :CLick on Retrieve button
+2021-01-14 16:51:03,171 :INFO : test_aging :Go to Order Aging menu
+2021-01-14 16:51:05,057 :INFO : test_aging :Select Facility
+2021-01-14 16:51:05,160 :INFO : test_aging :Facility result are shown
+2021-01-14 16:51:05,745 :INFO : test_aging :Go to Order list
+2021-01-14 19:25:32,722 :INFO : test_aging :Go to Order Aging menu
+2021-01-14 19:25:37,112 :INFO : test_aging :Select Facility
+2021-01-14 19:25:37,344 :INFO : test_aging :Facility result are shown
+2021-01-14 19:25:38,130 :INFO : test_aging :Go to Order list
+2021-01-14 19:34:21,123 :INFO : test_aging :Go to Order Aging menu
+2021-01-14 19:34:23,633 :INFO : test_aging :Select Facility
+2021-01-14 19:34:23,750 :INFO : test_aging :Facility result are shown
+2021-01-14 19:34:24,598 :INFO : test_aging :Go to Order list
+2021-01-14 19:44:37,899 :INFO : test_aging :Go to Order Aging menu
+2021-01-14 19:44:40,704 :INFO : test_aging :Select Facility
+2021-01-14 19:44:40,834 :INFO : test_aging :Facility result are shown
+2021-01-14 19:44:41,633 :INFO : test_aging :Go to Order list
+2021-01-14 19:46:26,066 :INFO : test_aging :Go to Order Aging menu
+2021-01-14 19:46:39,514 :INFO : test_aging :Select Facility
+2021-01-14 19:46:39,689 :INFO : test_aging :Facility result are shown
+2021-01-14 19:46:40,881 :INFO : test_aging :Go to Order list
+2021-01-14 19:54:38,836 :INFO : test_aging :Go to Order Aging menu
+2021-01-14 19:54:41,348 :INFO : test_aging :Select Facility
+2021-01-14 19:54:41,484 :INFO : test_aging :Facility result are shown
+2021-01-14 19:54:42,249 :INFO : test_aging :Go to Order list
+2021-01-14 19:55:39,461 :INFO : test_aging :Go to Order Aging menu
+2021-01-14 19:55:41,992 :INFO : test_aging :Select Facility
+2021-01-14 19:55:42,155 :INFO : test_aging :Facility result are shown
+2021-01-14 19:55:43,045 :INFO : test_aging :Go to Order list
+2021-01-14 20:25:53,190 :INFO : test_aging :Go to Order Aging menu
+2021-01-14 20:26:53,391 :INFO : test_aging :Go to Order Aging menu
+2021-01-14 20:26:55,838 :INFO : test_aging :Select Facility
+2021-01-14 20:26:55,960 :INFO : test_aging :Facility result are shown
+2021-01-14 20:26:56,722 :INFO : test_aging :Go to Order list
+2021-01-14 20:29:30,436 :INFO : test_aging :Go to Order Aging menu
+2021-01-14 20:30:32,377 :INFO : test_aging :Go to Order Aging menu
+2021-01-14 20:30:34,766 :INFO : test_aging :Select Facility
+2021-01-14 20:30:34,897 :INFO : test_aging :Facility result are shown
+2021-01-14 20:30:35,664 :INFO : test_aging :Go to Order list
+2021-01-14 20:38:28,421 :INFO : test_order :Click Order side menu
+2021-01-14 20:38:32,264 :INFO : test_order :Orders showing in Descending
+2021-01-14 20:39:09,203 :INFO : test_detail :Go to Order
+2021-01-14 20:39:10,357 :INFO : test_detail :Click Order side menu
+2021-01-14 20:39:14,933 :INFO : test_detail :Line item verifying
+2021-01-14 20:39:14,987 :INFO : test_detail :payment amount  True
+2021-01-14 20:39:15,013 :INFO : test_detail :Close button present
+2021-01-14 20:39:15,036 :INFO : test_detail :Other button present
+2021-01-14 20:39:37,096 :INFO : test_aging :Go to Order Aging menu
+2021-01-14 20:39:40,531 :INFO : test_aging :Select Facility
+2021-01-14 20:39:40,632 :INFO : test_aging :Facility result are shown
+2021-01-14 20:39:41,332 :INFO : test_aging :Go to Order list
+2021-01-14 20:39:57,698 :INFO : test_report :Login into system
+2021-01-14 20:40:04,950 :INFO : test_report :Go to side menu
+2021-01-14 20:40:05,585 :INFO : test_report :Go to report detail page
+2021-01-14 20:40:07,763 :INFO : test_report :Selecting the store
+2021-01-14 20:40:08,078 :INFO : test_report :Downloading the CSV and XML files
+2021-01-14 20:40:09,443 :INFO : test_report :CLick on Retrieve button
+2021-01-14 20:54:43,782 :INFO : test_aging :Go to Order Aging menu
+2021-01-14 20:54:47,735 :INFO : test_aging :Select Facility
+2021-01-14 20:54:47,839 :INFO : test_aging :Facility result are shown
+2021-01-14 20:54:48,975 :INFO : test_aging :Go to Order list
+2021-01-20 20:44:47,318 :INFO : test_five_shipment :Login into system

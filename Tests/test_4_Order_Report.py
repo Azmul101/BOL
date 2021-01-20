@@ -31,6 +31,6 @@ class Test_Four(BaseClass):
         #     pass
         time.sleep(10)
         self.driver.refresh()
-        time.sleep(10)
+        time.sleep(30)
         status_message = Order.get_internal_status().text
         assert ("OrderApproved" in status_message)
