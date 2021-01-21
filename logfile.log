@@ -537,3 +537,31 @@
 2021-01-14 20:54:47,839 :INFO : test_aging :Facility result are shown
 2021-01-14 20:54:48,975 :INFO : test_aging :Go to Order list
 2021-01-20 20:44:47,318 :INFO : test_five_shipment :Login into system
+2021-01-21 19:26:49,934 :INFO : test_five_shipment :Login into system
+2021-01-21 19:26:54,499 :INFO : test_five_shipment :Click on the menu link
+2021-01-21 19:27:58,663 :INFO : test_five_shipment :Login into system
+2021-01-21 19:28:02,422 :INFO : test_five_shipment :Click on the menu link
+2021-01-21 19:28:47,473 :INFO : test_five_shipment :Login into system
+2021-01-21 19:28:50,269 :INFO : test_five_shipment :Click on the menu link
+2021-01-21 19:40:52,734 :INFO : test_five_shipment :Login into system
+2021-01-21 19:42:54,486 :INFO : test_five_shipment :Click on the menu link
+2021-01-21 20:03:16,328 :INFO : test_five_shipment :Login into system
+2021-01-21 20:04:18,137 :INFO : test_five_shipment :Click on the menu link
+2021-01-21 20:04:22,395 :INFO : test_five_shipment :Incoming Shipment dialog box
+2021-01-21 20:14:46,648 :INFO : test_five_shipment :Login into system
+2021-01-21 20:15:47,833 :INFO : test_five_shipment :Click on the menu link
+2021-01-21 20:30:11,782 :INFO : test_five_shipment :Login into system
+2021-01-21 20:30:16,112 :INFO : test_five_shipment :Click on the menu link
+2021-01-21 20:30:18,454 :INFO : test_five_shipment :Incoming Shipment dialog box
+2021-01-21 20:37:53,776 :INFO : test_five_shipment :Login into system
+2021-01-21 20:37:59,275 :INFO : test_five_shipment :Click on the menu link
+2021-01-21 20:38:02,423 :INFO : test_five_shipment :Incoming Shipment dialog box
+2021-01-21 20:38:02,671 :INFO : test_five_shipment :Transfer dialog box
+2021-01-21 20:38:02,895 :INFO : test_five_shipment :Load the shipment data
+2021-01-21 20:38:03,477 :INFO : test_five_shipment :Shipment data is shown
+2021-01-21 20:40:19,495 :INFO : test_five_shipment :Login into system
+2021-01-21 20:41:24,431 :INFO : test_five_shipment :Click on the menu link
+2021-01-21 20:41:26,426 :INFO : test_five_shipment :Incoming Shipment dialog box
+2021-01-21 20:41:26,652 :INFO : test_five_shipment :Transfer dialog box
+2021-01-21 20:41:26,874 :INFO : test_five_shipment :Load the shipment data
+2021-01-21 20:41:27,467 :INFO : test_five_shipment :Shipment data is shown

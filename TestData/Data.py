@@ -9,3 +9,7 @@ class Testdata:
     find_Option_page_title = "Orders | Find Order (20)"
     create_title = "Create Purchase Order"
     order_aging_title = "Orders | Find Order"
+    outgoing_title = "New Outgoing Shipment"
+    incoming_title = "New Incoming Shipment"
+    transfer_title = "New Transfer Shipment"
+    csv_download = "Shipments | Find Shipments (20)"
