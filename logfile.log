@@ -565,3 +565,37 @@
 2021-01-21 20:41:26,652 :INFO : test_five_shipment :Transfer dialog box
 2021-01-21 20:41:26,874 :INFO : test_five_shipment :Load the shipment data
 2021-01-21 20:41:27,467 :INFO : test_five_shipment :Shipment data is shown
+2021-01-22 18:26:12,456 :INFO : test_order :Click Order side menu
+2021-01-22 18:26:52,649 :INFO : test_detail :Go to Order
+2021-01-22 18:26:53,351 :INFO : test_detail :Click Order side menu
+2021-01-22 18:26:56,316 :INFO : test_detail :Line item verifying
+2021-01-22 18:26:56,368 :INFO : test_detail :payment amount  True
+2021-01-22 18:26:56,398 :INFO : test_detail :Close button present
+2021-01-22 18:26:56,425 :INFO : test_detail :Other button present
+2021-01-22 18:27:10,363 :INFO : test_aging :Go to Order Aging menu
+2021-01-22 18:27:11,728 :INFO : test_aging :Select Facility
+2021-01-22 18:27:11,819 :INFO : test_aging :Facility result are shown
+2021-01-22 18:27:12,316 :INFO : test_aging :Go to Order list
+2021-01-22 18:27:22,161 :INFO : test_report :Login into system
+2021-01-22 18:27:24,334 :INFO : test_report :Go to side menu
+2021-01-22 18:27:24,985 :INFO : test_report :Go to report detail page
+2021-01-22 18:27:26,195 :INFO : test_report :Selecting the store
+2021-01-22 18:27:26,403 :INFO : test_report :Downloading the CSV and XML files
+2021-01-22 18:27:27,583 :INFO : test_report :CLick on Retrieve button
+2021-01-22 18:27:36,026 :INFO : test_five_shipment :Login into system
+2021-01-22 18:27:38,615 :INFO : test_five_shipment :Click on the menu link
+2021-01-22 18:27:41,107 :INFO : test_five_shipment :Incoming Shipment dialog box
+2021-01-22 18:27:41,345 :INFO : test_five_shipment :Transfer dialog box
+2021-01-22 18:27:41,566 :INFO : test_five_shipment :Load the shipment data
+2021-01-22 18:27:42,143 :INFO : test_five_shipment :Shipment data is shown
+2021-01-22 18:35:50,494 :INFO : test_order :Click Order side menu
+2021-01-22 18:35:52,936 :INFO : test_order :Orders showing in Descending
+2021-01-22 18:37:41,872 :INFO : test_order :Click Order side menu
+2021-01-22 18:39:19,192 :INFO : test_detail :Go to Order
+2021-01-22 18:39:19,796 :INFO : test_detail :Click Order side menu
+2021-01-25 19:38:00,553 :INFO : test_six_shipment :Login into system
+2021-01-25 19:38:05,788 :INFO : test_six_shipment :Click on the menu link
+2021-01-25 20:06:21,497 :INFO : test_six_shipment :Login into system
+2021-01-25 20:06:27,007 :INFO : test_six_shipment :Click on the menu link
+2021-01-25 20:07:06,012 :INFO : test_six_shipment :Login into system
+2021-01-25 20:07:13,913 :INFO : test_six_shipment :Click on the menu link
