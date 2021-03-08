@@ -13,3 +13,5 @@ class Testdata:
     incoming_title = "New Incoming Shipment"
     transfer_title = "New Transfer Shipment"
     csv_download = "Shipments | Find Shipments (20)"
+    issue_pack_button = "Pack/Issue Item"
+    reserve = "Reserve"

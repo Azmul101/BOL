@@ -599,3 +599,68 @@
 2021-01-25 20:06:27,007 :INFO : test_six_shipment :Click on the menu link
 2021-01-25 20:07:06,012 :INFO : test_six_shipment :Login into system
 2021-01-25 20:07:13,913 :INFO : test_six_shipment :Click on the menu link
+2021-01-26 14:36:44,994 :INFO : test_six_shipment :Login into system
+2021-01-26 14:36:47,302 :INFO : test_six_shipment :Click on the menu link
+2021-01-26 17:41:17,882 :INFO : test_six_shipment :Login into system
+2021-01-26 17:41:22,677 :INFO : test_six_shipment :Click on the menu link
+2021-01-26 17:49:44,845 :INFO : test_six_shipment :Login into system
+2021-01-26 17:49:51,774 :INFO : test_six_shipment :Click on the menu link
+2021-01-26 19:26:00,480 :INFO : test_six_shipment :Login into system
+2021-01-26 19:26:04,509 :INFO : test_six_shipment :Click on the menu link
+2021-01-26 19:37:55,954 :INFO : test_six_shipment :Login into system
+2021-01-26 19:37:59,440 :INFO : test_six_shipment :Click on the menu link
+2021-01-26 21:26:26,852 :INFO : test_order :Click Order side menu
+2021-01-26 21:26:29,593 :INFO : test_order :Orders showing in Descending
+2021-01-26 21:26:52,164 :INFO : test_detail :Go to Order
+2021-01-26 21:26:52,931 :INFO : test_detail :Click Order side menu
+2021-01-26 21:26:56,128 :INFO : test_detail :Line item verifying
+2021-01-26 21:26:56,180 :INFO : test_detail :payment amount  True
+2021-01-26 21:26:56,206 :INFO : test_detail :Close button present
+2021-01-26 21:26:56,234 :INFO : test_detail :Other button present
+2021-01-26 21:27:10,067 :INFO : test_aging :Go to Order Aging menu
+2021-01-26 21:27:11,743 :INFO : test_aging :Select Facility
+2021-01-26 21:27:11,848 :INFO : test_aging :Facility result are shown
+2021-01-26 21:27:12,414 :INFO : test_aging :Go to Order list
+2021-01-26 21:27:24,325 :INFO : test_report :Login into system
+2021-01-26 21:27:29,816 :INFO : test_report :Go to side menu
+2021-01-26 21:27:30,514 :INFO : test_report :Go to report detail page
+2021-01-26 21:27:31,961 :INFO : test_report :Selecting the store
+2021-01-26 21:27:32,172 :INFO : test_report :Downloading the CSV and XML files
+2021-01-26 21:27:43,802 :INFO : test_five_shipment :Login into system
+2021-01-26 21:27:48,919 :INFO : test_five_shipment :Click on the menu link
+2021-01-26 21:27:51,812 :INFO : test_five_shipment :Incoming Shipment dialog box
+2021-01-26 21:27:52,057 :INFO : test_five_shipment :Transfer dialog box
+2021-01-26 21:27:52,292 :INFO : test_five_shipment :Load the shipment data
+2021-01-26 21:27:52,877 :INFO : test_five_shipment :Shipment data is shown
+2021-01-26 21:28:03,489 :INFO : test_six_shipment :Login into system
+2021-01-26 21:28:07,868 :INFO : test_six_shipment :Click on the menu link
+2021-01-27 14:40:38,016 :INFO : test_six_shipment :Login into system
+2021-01-27 14:40:41,043 :INFO : test_six_shipment :Click on the menu link
+2021-01-27 14:45:57,580 :INFO : test_six_shipment :Login into system
+2021-01-27 14:46:00,171 :INFO : test_six_shipment :Click on the menu link
+2021-03-08 19:32:27,750 :INFO : test_order :Click Order side menu
+2021-03-08 19:32:30,779 :INFO : test_order :Orders showing in Descending
+2021-03-08 19:32:49,351 :INFO : test_detail :Go to Order
+2021-03-08 19:32:50,054 :INFO : test_detail :Click Order side menu
+2021-03-08 19:32:58,892 :INFO : test_detail :Line item verifying
+2021-03-08 19:32:58,964 :INFO : test_detail :payment amount  True
+2021-03-08 19:32:58,993 :INFO : test_detail :Close button present
+2021-03-08 19:32:59,077 :INFO : test_detail :Other button present
+2021-03-08 19:33:11,459 :INFO : test_aging :Go to Order Aging menu
+2021-03-08 19:33:13,065 :INFO : test_aging :Select Facility
+2021-03-08 19:33:13,201 :INFO : test_aging :Facility result are shown
+2021-03-08 19:33:13,874 :INFO : test_aging :Go to Order list
+2021-03-08 19:33:20,875 :INFO : test_report :Login into system
+2021-03-08 19:33:26,870 :INFO : test_report :Go to side menu
+2021-03-08 19:33:27,587 :INFO : test_report :Go to report detail page
+2021-03-08 19:33:28,806 :INFO : test_report :Selecting the store
+2021-03-08 19:33:29,087 :INFO : test_report :Downloading the CSV and XML files
+2021-03-08 19:33:30,975 :INFO : test_report :CLick on Retrieve button
+2021-03-08 19:35:16,383 :INFO : test_five_shipment :Login into system
+2021-03-08 19:35:22,310 :INFO : test_five_shipment :Click on the menu link
+2021-03-08 19:35:25,233 :INFO : test_five_shipment :Incoming Shipment dialog box
+2021-03-08 19:35:25,517 :INFO : test_five_shipment :Transfer dialog box
+2021-03-08 19:35:25,799 :INFO : test_five_shipment :Load the shipment data
+2021-03-08 19:35:26,541 :INFO : test_five_shipment :Shipment data is shown
+2021-03-08 19:36:33,952 :INFO : test_six_shipment :Login into system
+2021-03-08 19:36:42,762 :INFO : test_six_shipment :Click on the menu link
