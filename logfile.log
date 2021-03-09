@@ -664,3 +664,80 @@
 2021-03-08 19:35:26,541 :INFO : test_five_shipment :Shipment data is shown
 2021-03-08 19:36:33,952 :INFO : test_six_shipment :Login into system
 2021-03-08 19:36:42,762 :INFO : test_six_shipment :Click on the menu link
+2021-03-09 12:31:05,970 :INFO : test_asset_list :Login into system
+2021-03-09 12:31:11,579 :INFO : test_asset_list :Click on the menu link
+2021-03-09 12:35:58,501 :INFO : test_asset_list :Login into system
+2021-03-09 12:36:05,632 :INFO : test_asset_list :Click on the menu link
+2021-03-09 12:36:06,270 :INFO : test_asset_list :Click on the menu list
+2021-03-09 12:45:20,743 :INFO : test_asset_list :Login into system
+2021-03-09 12:45:28,352 :INFO : test_asset_list :Click on the menu link
+2021-03-09 12:45:29,022 :INFO : test_asset_list :Click on the menu list
+2021-03-09 12:45:29,665 :INFO : test_asset_list :Click on the asset button
+2021-03-09 12:53:34,182 :INFO : test_asset_list :Login into system
+2021-03-09 12:53:42,108 :INFO : test_asset_list :Click on the menu link
+2021-03-09 12:53:42,756 :INFO : test_asset_list :Click on the menu list
+2021-03-09 12:53:43,402 :INFO : test_asset_list :Click on the asset button
+2021-03-09 12:53:44,505 :INFO : test_asset_list :Click on the Find Option button
+2021-03-09 13:34:54,288 :INFO : test_asset_list :Login into system
+2021-03-09 13:35:01,029 :INFO : test_asset_list :Click on the menu link
+2021-03-09 13:35:01,674 :INFO : test_asset_list :Click on the menu list
+2021-03-09 13:35:02,320 :INFO : test_asset_list :Click on the asset button
+2021-03-09 13:35:03,956 :INFO : test_asset_list :Click on the Find Option button
+2021-03-09 13:35:05,759 :INFO : test_asset_list :Click on the asset button
+2021-03-09 13:35:05,890 :INFO : test_asset_list :Pass the value and click on find button
+2021-03-09 13:36:35,312 :INFO : test_asset_list :Login into system
+2021-03-09 13:36:44,241 :INFO : test_asset_list :Click on the menu link
+2021-03-09 13:36:44,885 :INFO : test_asset_list :Click on the menu list
+2021-03-09 13:36:45,556 :INFO : test_asset_list :Click on the asset button
+2021-03-09 13:36:46,663 :INFO : test_asset_list :Click on the Find Option button
+2021-03-09 13:36:48,335 :INFO : test_asset_list :Click on the asset button
+2021-03-09 13:36:51,454 :INFO : test_asset_list :Pass the value and click on find button
+2021-03-09 14:13:19,652 :INFO : test_asset_list :Login into system
+2021-03-09 14:13:26,541 :INFO : test_asset_list :Click on the menu link
+2021-03-09 14:13:27,191 :INFO : test_asset_list :Click on the menu list
+2021-03-09 14:13:27,904 :INFO : test_asset_list :Click on the asset button
+2021-03-09 14:13:29,012 :INFO : test_asset_list :Click on the Find Option button
+2021-03-09 14:13:30,687 :INFO : test_asset_list :Click on the asset button
+2021-03-09 14:13:33,825 :INFO : test_asset_list :Pass the value and click on find button
+2021-03-09 14:36:40,664 :INFO : test_asset_list :Login into system
+2021-03-09 14:36:49,449 :INFO : test_asset_list :Click on the menu link
+2021-03-09 14:36:50,131 :INFO : test_asset_list :Click on the menu list
+2021-03-09 14:36:50,800 :INFO : test_asset_list :Click on the asset button
+2021-03-09 14:36:51,910 :INFO : test_asset_list :Click on the Find Option button
+2021-03-09 14:36:53,586 :INFO : test_asset_list :Click on the asset button
+2021-03-09 14:36:56,734 :INFO : test_asset_list :Pass the value and click on find button
+2021-03-09 14:45:11,156 :INFO : test_asset_list :Login into system
+2021-03-09 14:46:18,283 :INFO : test_asset_list :Click on the menu link
+2021-03-09 14:46:18,384 :INFO : test_asset_list :Click on the menu list
+2021-03-09 14:46:19,079 :INFO : test_asset_list :Click on the asset button
+2021-03-09 14:46:20,753 :INFO : test_asset_list :Click on the Find Option button
+2021-03-09 14:46:22,510 :INFO : test_asset_list :Click on the asset button
+2021-03-09 14:46:25,698 :INFO : test_asset_list :Pass the value and click on find button
+2021-03-09 15:00:45,790 :INFO : test_asset_list :Login into system
+2021-03-09 15:00:51,345 :INFO : test_asset_list :Click on the menu link
+2021-03-09 15:00:51,971 :INFO : test_asset_list :Click on the menu list
+2021-03-09 15:00:52,620 :INFO : test_asset_list :Click on the asset button
+2021-03-09 15:00:53,742 :INFO : test_asset_list :Click on the Find Option button
+2021-03-09 15:00:55,026 :INFO : test_asset_list :Click on the asset button
+2021-03-09 15:00:58,156 :INFO : test_asset_list :Pass the value and click on find button
+2021-03-09 15:03:23,805 :INFO : test_asset_list :Login into system
+2021-03-09 15:03:29,771 :INFO : test_asset_list :Click on the menu link
+2021-03-09 15:03:30,417 :INFO : test_asset_list :Click on the menu list
+2021-03-09 15:03:31,339 :INFO : test_asset_list :Click on the asset button
+2021-03-09 15:03:32,463 :INFO : test_asset_list :Click on the Find Option button
+2021-03-09 15:03:34,143 :INFO : test_asset_list :Click on the asset button
+2021-03-09 15:03:37,269 :INFO : test_asset_list :Pass the value and click on find button
+2021-03-09 15:14:05,416 :INFO : test_asset_list :Login into system
+2021-03-09 15:14:14,075 :INFO : test_asset_list :Click on the menu link
+2021-03-09 15:14:14,744 :INFO : test_asset_list :Click on the menu list
+2021-03-09 15:14:15,402 :INFO : test_asset_list :Click on the asset button
+2021-03-09 15:14:17,033 :INFO : test_asset_list :Click on the Find Option button
+2021-03-09 15:14:18,717 :INFO : test_asset_list :Click on the asset button
+2021-03-09 15:14:21,860 :INFO : test_asset_list :Pass the value and click on find button
+2021-03-09 15:15:29,571 :INFO : test_asset_list :Login into system
+2021-03-09 15:15:38,071 :INFO : test_asset_list :Click on the menu link
+2021-03-09 15:15:38,728 :INFO : test_asset_list :Click on the menu list
+2021-03-09 15:15:39,358 :INFO : test_asset_list :Click on the asset button
+2021-03-09 15:15:40,478 :INFO : test_asset_list :Click on the Find Option button
+2021-03-09 15:15:41,693 :INFO : test_asset_list :Click on the asset button
+2021-03-09 15:15:44,844 :INFO : test_asset_list :Pass the value and click on find button
