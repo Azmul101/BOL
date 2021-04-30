@@ -40,5 +40,9 @@ class Common:
         return request.param
 
     def selectOptionByText(self, locator, text):
-        sel = Select(locator)
+        sel = Select(self.driver.find_element(*locator))
         sel.select_by_visible_text(text)
+
+    def confirmation_alert(self):
+        obj = self.driver.switch_to.alert
+        obj.accept()

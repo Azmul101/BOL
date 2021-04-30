@@ -1,6 +1,4 @@
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.select import Select
-
 from Pages.BasePage import Common
 
 
@@ -31,8 +29,7 @@ class report_order(Common):
         return self.do_click(report_order.select_store)
 
     def get_store(self):
-        select = Select(self.driver.find_element(*self.store_id))
-        select.select_by_visible_text("KK_SHOPIFY")
+        self.selectOptionByText(self.store_id, "KK_SHOPIFY")
 
     def click_on_button(self):
         self.do_click(self.go_button)

@@ -15,4 +15,5 @@ class Testdata:
     csv_download = "Shipments | Find Shipments (20)"
     issue_pack_button = "Pack/Issue Item"
     reserve = "Reserve"
-    asset_title = "Asset | Find Asset"
+    asset_title = "Asset | Find Summary"
+    move_heading = "Asset | Asset Detail (108176)"
