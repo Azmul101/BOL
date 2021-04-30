@@ -1342,3 +1342,12 @@
 2021-04-30 12:32:17,573 :INFO : test_fifteen :Scan asset
 2021-04-30 12:32:17,669 :INFO : test_fifteen :Move Asset
 2021-04-30 12:32:17,854 :INFO : test_fifteen :Receive direct
+2021-04-30 15:55:47,156 :INFO : test_sixteen :Login into system
+2021-04-30 15:55:53,536 :INFO : test_sixteen :Click on the menu link
+2021-04-30 15:55:53,692 :INFO : test_sixteen :Click on the menu list
+2021-04-30 16:19:41,078 :INFO : test_sixteen :Login into system
+2021-04-30 16:19:49,405 :INFO : test_sixteen :Click on the menu link
+2021-04-30 16:19:50,572 :INFO : test_sixteen :Click on the menu list
+2021-04-30 16:19:55,582 :INFO : test_sixteen :Warehouse Select
+2021-04-30 16:19:55,749 :INFO : test_sixteen :Click on LookUp
+2021-04-30 16:19:55,909 :INFO : test_sixteen :Click on MoveProduct
