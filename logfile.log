@@ -1351,3 +1351,40 @@
 2021-04-30 16:19:55,582 :INFO : test_sixteen :Warehouse Select
 2021-04-30 16:19:55,749 :INFO : test_sixteen :Click on LookUp
 2021-04-30 16:19:55,909 :INFO : test_sixteen :Click on MoveProduct
+2021-05-03 13:58:01,319 :INFO : test_seventeen :Login into system
+2021-05-03 13:58:09,601 :INFO : test_seventeen :Click on the menu list
+2021-05-05 16:04:44,510 :INFO : test_seventeen :Login into system
+2021-05-05 16:04:56,268 :INFO : test_seventeen :Click on the menu list
+2021-05-05 16:10:19,047 :INFO : test_eighteen :Login into system
+2021-05-05 16:10:28,389 :INFO : test_eighteen :Click on the menu list
+2021-05-05 16:14:57,540 :INFO : test_eighteen :Login into system
+2021-05-05 16:15:04,352 :INFO : test_eighteen :Click on the menu list
+2021-05-05 16:24:19,508 :INFO : test_eighteen :Login into system
+2021-05-05 16:24:43,927 :INFO : test_eighteen :Click on the menu list
+2021-05-05 16:49:03,244 :INFO : test_eighteen :Login into system
+2021-05-05 16:49:10,543 :INFO : test_eighteen :Click on the menu list
+2021-05-06 14:54:34,557 :INFO : test_eighteen :Login into system
+2021-05-06 14:54:48,128 :INFO : test_eighteen :Click on the menu list
+2021-05-06 14:57:30,047 :INFO : test_eighteen :Login into system
+2021-05-06 14:57:36,154 :INFO : test_eighteen :Click on the menu list
+2021-05-06 15:08:01,897 :INFO : test_eighteen :Login into system
+2021-05-06 15:08:08,593 :INFO : test_eighteen :Click on the menu list
+2021-05-06 15:25:22,761 :INFO : test_eighteen :Login into system
+2021-05-06 15:26:30,925 :INFO : test_eighteen :Click on the menu list
+2021-05-06 15:29:26,815 :INFO : test_eighteen :Login into system
+2021-05-06 15:29:42,452 :INFO : test_eighteen :Click on the menu list
+2021-05-06 15:36:35,732 :INFO : test_eighteen :Login into system
+2021-05-06 15:36:57,581 :INFO : test_eighteen :Click on the menu list
+2021-05-06 15:36:59,352 :INFO : test_eighteen :Click on find option
+2021-05-06 15:37:01,368 :INFO : test_eighteen :Click on find button
+2021-05-06 15:37:01,678 :INFO : test_eighteen :Return List Screen
+2021-05-06 15:38:03,941 :INFO : test_eighteen :Login into system
+2021-05-06 15:38:08,593 :INFO : test_eighteen :Click on the menu list
+2021-05-06 15:38:09,439 :INFO : test_eighteen :Click on find option
+2021-05-06 15:38:11,005 :INFO : test_eighteen :Click on find button
+2021-05-06 15:38:11,384 :INFO : test_eighteen :Return List Screen
+2021-05-06 15:39:33,088 :INFO : test_eighteen :Login into system
+2021-05-06 15:39:40,336 :INFO : test_eighteen :Click on the menu list
+2021-05-06 15:39:41,117 :INFO : test_eighteen :Click on find option
+2021-05-06 15:39:42,954 :INFO : test_eighteen :Click on find button
+2021-05-06 15:39:43,294 :INFO : test_eighteen :Return List Screen
